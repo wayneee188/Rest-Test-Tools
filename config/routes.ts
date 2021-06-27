@@ -34,6 +34,12 @@
                 component: './Welcome',
               },
               {
+                path: '/treeNode',
+                name: 'treeNode',
+                icon: 'smile',
+                component: './TreeNode',
+              },
+              {
                 path: '/admin',
                 name: 'admin',
                 icon: 'crown',
