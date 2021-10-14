@@ -9,6 +9,7 @@ const { REACT_APP_ENV } = process.env;
 export default defineConfig({
   hash: true,
   antd: {},
+  outputPath: '../www',
   dva: {
     hmr: true,
   },
